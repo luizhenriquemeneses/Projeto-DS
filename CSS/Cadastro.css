@@ -1,0 +1,23 @@
+/*Definindo imagem de fundo*/
+body {
+    margin: auto;
+    padding: 20px;
+    background: url('../Imagens/background.jpg') repeat-x;
+}
+/*Definindo as dimensões do fildset dos blocos*/
+fieldset {
+    margin-left: 25%;
+    margin-right: 20%;
+    border: solid 1px black;
+}
+/*Definindo as dimensões e caracteristica dos botão ao final da página e do enunciado superior*/
+.Cad, .botao {
+    margin-left: 25%;
+    margin-right: 20%;
+    text-align: center;
+    background-color: orange
+}
+/*Posição do "botão" para voltar a tela principal*/
+.home{
+    float: left;
+}

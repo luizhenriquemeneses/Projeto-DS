@@ -1,0 +1,134 @@
+/*Definindo a imagem de fundo*/
+body{
+    margin: auto;
+    background: url('../Imagens/background.jpg') repeat-x;
+    
+}
+/*Imagem e dimensões do cabeçalho*/
+.cabecalho{
+    height: 200px;
+    width: 90%;
+    background: url('../Imagens/back_topo.gif') repeat-x;
+    margin: 0 auto;
+}
+/*Logo lateral esquerda*/
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+/*Logo lateral diretira*/
+.logo2{
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+/*Menu central de opções*/
+.menu{
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-right: 30px;
+    height: 59%;
+    width: 56%;
+    position: relative;
+	float: center;
+    text-align: center;
+    
+}
+/*Opções de Menu*/
+.menu ul{
+    margin: 0 15% 0 15%;
+    height: 170%;
+    width: 70%;
+    float: top;
+    background-color: orange;
+}
+/*Opções de Menu*/
+.menu li{
+    text-align: center;
+    padding: none;
+    position: relative;
+	float: left;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-left: 100px;
+
+}
+/*Opções de Menu*/
+
+.menu ul li a{
+    color: blue;
+    padding: none;
+    position: relative;
+	float: left;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+/*Opções de Menu*/
+.menu ul li a:hover {
+    position: relative;
+	float: left;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+@media only screen and (max-width: 1300px){
+    .menu{
+        height: 60%;
+        width: 50%;
+        position: relative;
+        float: right;
+        text-align: center;        
+    }
+
+    .menu li{
+        margin: 0%;
+        text-align: center;
+        position: relative;
+        float: left;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 25px;
+        padding-left: 10px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 980px){
+    .menu{
+
+        height: 70%;
+        width: 35%;
+        position: relative;
+        float: right;
+        text-align: center;        
+    }
+
+    .menu li{
+        margin: 0%;
+        text-align: center;
+        position: relative;
+        float: left;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-left: 2px;
+    
+    }
+    .a{
+        margin-left: 10px;
+        margin-top: 100px;
+        margin-right: 30px;
+        height: 59%;
+        width: 56%;
+        position: relative;
+        float: center;
+        text-align: center; 
+    }
+}
+
